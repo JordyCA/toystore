@@ -5,7 +5,7 @@ import './icon.style.css'
 const Icon = () => {
     return (
         <div className='logo'>
-            <Link href="/">
+            <Link to="/">
                 <img src={toyShopIcon} alt="toyIcon-Store" />
             </Link>
 
