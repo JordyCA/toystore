@@ -1,12 +1,13 @@
 import toyShopIcon from '../../assets/img/toyShop.png';
+import { Link } from 'react-router-dom';
 import './icon.style.css'
 
 const Icon = () => {
     return (
         <div className='logo'>
-            <a href="/">
+            <Link href="/">
                 <img src={toyShopIcon} alt="toyIcon-Store" />
-            </a>
+            </Link>
 
         </div>
     )
