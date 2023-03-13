@@ -1,0 +1,63 @@
+.__Navigation {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    display: flex;
+}
+
+.__Navigation .__Nav__Bar {
+    margin: 0 10px 0 10px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.__Navigation .__Question {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.__Navigation .__Question .text {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.__Navigation .__Question .phone{
+    color: black;
+}
+
+.__Navigation .__Question .circle {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.__Navigation .__Question .circle svg {
+    color: white;
+}
+
+@media (min-width: 300px) and (max-width: 1000px) { 
+    .__Navigation .__Question .text {
+        font-size: 10px !important;
+    }
+
+    .__Navigation .__Nav__Bar {
+        font-size: 10px !important;
+    }
+
+    .__Navigation .__Question .circle{
+        height: 15px;
+        width: 15px;
+    }
+}

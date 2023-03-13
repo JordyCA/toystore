@@ -1,0 +1,7 @@
+.__Navigation .logo {
+    margin: 0;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

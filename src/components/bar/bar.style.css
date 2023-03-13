@@ -1,0 +1,10 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.__header_bar {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    padding-top: 10px;
+}

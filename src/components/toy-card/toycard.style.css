@@ -1,0 +1,67 @@
+.__ToyCard {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 40px 0;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.__ToyCard .text {
+    color: black !important;
+    text-align: center;
+}
+
+.__ToyCard img {
+    width: 90px;
+    position: absolute;
+    padding-bottom: 460px;
+}
+
+.__ToyCard .title {
+    font-weight: bold;
+}
+
+.__ToyCard .text {
+    padding-top: 10px;
+
+}
+
+.__ToyCard .button {
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    .__ToyCard {
+        width: 100px;
+        padding: 60px 0 20px 0;
+    }
+    .__ToyCard img {
+        width: 80px;
+        padding-bottom: 250px;
+    }
+    .__ToyCard .title {
+        font-size: 10px;
+    }
+
+    .__ToyCard .text p {
+        font-size: 8px;
+    }
+    .__ToyCard .button {
+        width: 90px;
+        font-size: 10px;
+        padding: 5px 5px 5px 5px;
+    }
+}

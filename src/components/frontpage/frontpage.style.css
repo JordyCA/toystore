@@ -1,0 +1,141 @@
+/* .__SectionOne .section-ToyStore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vw / (1300 / 866));
+} */
+
+.__SectionOne,
+.__SectionCompanies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.__SectionOne img {
+    width: 100%;
+}
+
+.__SectionOne .group-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.__SectionOne .group-text .title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.__SectionOne .group-text .text-1 {
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.__SectionOne .group-text .button {
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.__SectionOne .group-text .text-2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.__SectionCompanies .group-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__SectionCompanies {
+    margin: 10px 0 100px 0;
+}
+
+.__SectionCompanies h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.__SectionCompanies .group-images .hotwheels,
+.__SectionCompanies .group-images .mylittlepony,
+.__SectionCompanies .group-images .starwars {
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 200px) and (max-width: 299px) {
+    .__SectionOne .group-text {
+        margin-top: 50px;
+    }
+
+    .__SectionOne .group-text .title {
+        font-size: 10px !important;
+    }
+
+    .__SectionOne .group-text .text-1 {
+        font-size: 8px !important;
+    }
+
+    .__SectionOne .group-text .button {
+        width: 150px;
+        font-size: 8px !important;
+        padding: 1px 1px 1px 1px;
+    }
+
+    .__SectionOne .group-text .text-2 {
+        font-size: 5px !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    .__SectionOne .group-text {
+        margin-top: 50px;
+    }
+
+    .__SectionOne .group-text .title {
+        font-size: 15px !important;
+    }
+
+    .__SectionOne .group-text .text-1 {
+        font-size: 10px !important;
+    }
+
+    .__SectionOne .group-text .button {
+        width: 150px;
+        font-size: 10px !important;
+    }
+
+    .__SectionOne .group-text .text-2 {
+        font-size: 8px !important;
+    }
+    .__SectionCompanies {
+        margin: 10px 0 25px 0;
+    }
+
+    .__SectionCompanies h2 {
+        font-size: 15px !important;
+    }
+
+    .__SectionCompanies .group-images .hotwheels,
+    .__SectionCompanies .group-images .mylittlepony,
+    .__SectionCompanies .group-images .starwars {
+        width: 40px;
+    margin: 0px;
+    padding: 0px;
+    }
+}
+
+
