@@ -1,6 +1,12 @@
 import { Fragment } from 'react';
 
-import toyStoreBanner from './../../assets/img/section/toystorebanner.webp'
+import SliderToy  from '../slider/slider.component';
+
+import About from "../../components/about/about.component";
+import Packages from "../../components/packages/packages.component";
+import Infoform from "../../components/infoform/infoform.component";
+import Banner from '../banner/banner.component';
+
 import hotwheels from '../../assets/img/companies/hotwheels.png';
 import mylittlepony from '../../assets/img/companies/mylittlepony.png';
 import starwarslogo from '../../assets/img/companies/starwarslogo.png';
@@ -9,25 +15,11 @@ import './frontpage.style.css'
 
 const Frontpage = () => {
     return (
-        <Fragment>
-            <div className="__SectionOne">
-                <div className='group-text'>
-                    <div className='title'>
-                        <span>Todo puede entrar en una sola caja</span>
-                    </div>
-                    <div className='text-1'>
-                        <span>Disfruta, crea y aprende, explora con tu creatividad, arma tu paquete de juguetes.</span>
-                    </div>
-                    <div className='button'>
-                        <a href="/">Descubre nuestros paquetes</a>
-                    </div>
-                    <div className='text-2'>
-                        <span>Pagos 100% seguros</span>
-                    </div>
-                </div>
-                <img src={toyStoreBanner} alt="toy-store" />
-            </div>
-            <div className='__SectionCompanies'>
+        <div className='__SectionFrontPage'>
+            <Banner />
+            <SliderToy/>
+            
+            {/* <div className='__SectionCompanies'>
                 <h2>Marcas</h2>
                 <div className='group-images'>
                     <a href="https://shop.mattel.com/es-mx/pages/hot-wheels" target="_blank">
@@ -42,9 +34,11 @@ const Frontpage = () => {
 
 
                 </div>
-            </div>
-
-        </Fragment>
+            </div> */}
+            <Packages />
+            <About />
+            <Infoform />
+        </div>
 
     )
 }

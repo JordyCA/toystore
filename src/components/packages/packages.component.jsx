@@ -14,8 +14,6 @@ const Packages = () => {
                 <Toycard packName="Paquete regular" />
                 <Toycard packName="Paquete caro" />
             </div>
-
-
         </div>
     );
 }

@@ -1,9 +1,11 @@
+// import Icon from '../icon/icon.component';
 import './bar.style.css';
 
 const Bar = () => {
     return (
-        <div className='__header_bar min-[280px]:text-center sm:text-center md:text-center lg:text-center'>
-            <span className='text-xl text-white'>TIENDA DE JUGUETES</span>
+        <div className='__header_bar min-[280px]:text-center'>
+            {/* <Icon /> */}
+            <span className='text-xl text-black'>Mundo de leyendas y juguetes</span>
         </div>
     );
 }

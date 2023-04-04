@@ -2,14 +2,14 @@ import { HiPhone } from "react-icons/hi";
 import { Fragment } from "react";
 import { Link, Outlet } from "react-router-dom";
 
-import Icon from "../icon/icon.component";
+import Logo from "../logo/logo.component";
 
 import "./navBar.style.css";
 const NavBar = () => {
     return (
         <Fragment>
             <div className="__Navigation">
-                <Icon />
+                <Logo />
                 <nav className="__Nav__Bar">
                     <Link to="/about">Sobre nosotros</Link>
                     <span>Toy Kits</span>
